@@ -1,4 +1,5 @@
 import openfl.Assets;
+import wx.MDIParentFrame;
 
 
 #if macro
@@ -65,7 +66,8 @@ class ApplicationMain {
 			::if (APP_FRAME != null)::
 			frame = wx.::APP_FRAME::.create (null, null, "::APP_TITLE::", null, { width: ::WIN_WIDTH::, height: ::WIN_HEIGHT:: });
 			::else::
-			frame = wx.Frame.create (null, null, "::APP_TITLE::", null, { width: ::WIN_WIDTH::, height: ::WIN_HEIGHT:: });
+			frame = MDIParentFrame.create(null, null, "::APP_TITLE::", null, { width: ::WIN_WIDTH::, height: ::WIN_HEIGHT:: } );
+			//frame = wx.Frame.create (null, null, "::APP_TITLE::", null, { width: ::WIN_WIDTH::, height: ::WIN_HEIGHT:: });
 			::end::
 			
 			#if openfl

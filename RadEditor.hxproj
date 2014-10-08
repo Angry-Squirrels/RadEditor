@@ -16,11 +16,11 @@
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="C:\workspace\haxelib-dev\openfl" />
-    <class path="C:\workspace\haxelib-dev\waxe" />
+    <class path="C:\HaxeToolkit\haxe\lib\openfl\2,0,1" />
+    <class path="C:\Users\Thomas\workspace\haxelib-dev\waxe" />
     <class path="Source" />
-    <class path="C:\workspace\haxelib-dev\openfl\backends\native" />
-    <class path="Export\windows\cpp\haxe" />
+    <class path="C:\HaxeToolkit\haxe\lib\openfl\2,0,1\backends\native" />
+    <class path="Export\windows\neko\haxe" />
   </classpaths>
   <!-- Build options -->
   <build>
