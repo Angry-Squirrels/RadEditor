@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="RadEditor" package="com.example.project" version="1.0.0" company="Company Name" />
-	<app main="Main" path="Export" file="RadEditor" />
+	<meta title="RadEditor" package="fr.radstar.radeditor" version="1.0.0" company="Rad Star" />
+	<app main="fr.radstar.radeditor.Main" path="Export" file="RadEditor" />
 	
 	<source path="Source" />
 	
 	<haxelib name="openfl" />
+	<haxelib name="waxe" />
+	
+	<template path="templates" />
 	
 	<assets path="Assets" rename="assets" exclude="openfl.svg" />
 	<icon path="Assets/openfl.svg" />
